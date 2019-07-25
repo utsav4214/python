@@ -1,0 +1,6 @@
+# take 2 num from user and print equal,bigger or lesser
+
+num1 = int(input("Enter 1 no. to compare"))
+num2 = int(input("Enter 2 no. to compare"))
+output = "no. are equal" if num1==num2 else "1st num is lesser" if num1<num2 else "1st num is bigger" 
+print(output)
