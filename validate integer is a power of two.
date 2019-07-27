@@ -1,0 +1,10 @@
+#Write a Python program to check if a given positive integer is a power of two.
+num = int(input("enter number to check num is power of 2 or not"))
+for i in range(num):
+    if 2**i == num:
+        i = str(i)
+        power = ("number is a : " + i + " power of 2")
+        break
+    else:
+        power = ("number is not a power of 2")
+print(power
